@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Todo from '../views/TodoExample.vue'
 import Example from '../views/Example.vue'
+import VuexTodo from '../components/vuex/Todo.vue'
 
 Vue.use(VueRouter)
 
@@ -29,6 +30,11 @@ const routes = [
     path: '/vue-example',
     name: 'Vue Example',
     component: Example
+  },
+  {
+    path: '/vuex-example',
+    name: 'Vue Example',
+    component: VuexTodo
   }
 ]
 
